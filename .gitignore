@@ -1,0 +1,7 @@
+config.yaml
+backups/
+.venv/
+.idea/
+__pycache__/
+*.pyc
+*.pyo

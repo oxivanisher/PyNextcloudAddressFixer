@@ -1,0 +1,4 @@
+requests>=2.32
+vobject>=0.9.7
+rich>=13.0
+pyyaml>=6.0

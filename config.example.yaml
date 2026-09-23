@@ -1,0 +1,13 @@
+nextcloud:
+  url: "https://your.nextcloud.instance"      # Base URL, no trailing slash
+  username: "your_username"
+  password: "your_app_password"               # Use an app password (Settings → Security)
+  # addressbook_path is optional; defaults to the standard Nextcloud contacts path.
+  # Uncomment and adjust if your addressbook lives at a different path.
+  # addressbook_path: "/remote.php/dav/addressbooks/users/your_username/contacts/"
+
+options:
+  dry_run: false          # If true, show proposed changes but never write back to Nextcloud
+  backup_vcf: true        # If true, save original VCFs to ./backups/ before modifying
+  review_mode: "table"    # "table" = see all at once, "one_by_one" = confirm each individually
+  skip_country_field: false  # If true, do not set the country field even when it can be parsed
