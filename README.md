@@ -97,3 +97,7 @@ Before writing, you will be asked to confirm the total number of changes.
 - Always use an **app password**, not your Nextcloud login password.
 - `config.yaml` is in `.gitignore` — double-check before committing.
 - Backups are stored locally in `./backups/` as plain VCF files.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
